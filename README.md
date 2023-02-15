@@ -1,5 +1,5 @@
 # 如何部署yuanzai bot v3
-[目前功能](https://github.com/Le-niao/Yunzai-Bot/tree/main/plugins/genshin)
+[目前功能](https://gitee.com/Le-niao/Yunzai-Bot/tree/main/plugins/genshin)
 ## 准备工作
 ##### 1.系统Centos7.9
 ##### 2.有手
