@@ -70,4 +70,13 @@ pnpm install -P
 6.运行（首次运行按提示输入登录）
 ```
 node app
+
+#会提示未开启redis服务器,复制命令
+cd ..
+cd src
+#然后输入打开redis服务器的命令，在前面加上./  没有报错后输入
+cd ..
+cd Yuanzai-Bot
+node app
+#之后就正常流程就行
 ```
