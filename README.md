@@ -75,7 +75,8 @@ node app
 
 #会提示未开启redis服务器,复制命令
 cd /usr/local/redis/src
-#然后输入打开redis服务器的命令，在前面加上./  没有报错后输入
+#然后输入打开redis服务器的命令
+#之后回到文件夹
 cd /root/Yuanzai-Bot
 node app
 #之后就正常流程就行
