@@ -53,6 +53,8 @@ make PREFIX=/usr/local/redis install
 #安装git
 yum install git -y
 
+cd ~
+
 git clone --depth=1 -b main https://gitee.com/Le-niao/Yunzai-Bot.git
 ```
 ```
@@ -72,11 +74,9 @@ pnpm install -P
 node app
 
 #会提示未开启redis服务器,复制命令
-cd ..
-cd src
+cd /usr/local/redis/src
 #然后输入打开redis服务器的命令，在前面加上./  没有报错后输入
-cd ..
-cd Yuanzai-Bot
+cd ~/Yuanzai-Bot
 node app
 #之后就正常流程就行
 ```
